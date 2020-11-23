@@ -1,0 +1,108 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: lightgray;
+    font-family: 'PT Sans Narrow', Arial, Helvetica, sans-serif;
+}
+
+h3{
+    font-weight: bolder;
+    font-size: 1.6em;
+}
+
+.details{
+    font-weight: bolder;
+    font-size: 1.4em;
+    margin: 10px 0 1px 0;
+}
+
+.details-p{
+    margin: 1px;
+    text-align: justify;
+    font-size: 1.2em
+}
+
+.frame{
+    width: 65%;
+    height: 90%;
+    margin: 5% 15%;
+    box-shadow: 5px 20px 20px #000000;
+    display: flex;
+}
+
+.blank{
+    width: 10%;
+    background: rgb(112, 112, 112);
+}
+
+.small{
+    width: 30%;
+    padding: 40px 20px;
+    background: rgb(187, 184, 184);
+}
+
+.small img{
+    height: 190px;
+    width: 190px;
+    display: block;
+}
+
+.large{
+    padding: 40px;
+    background: white;
+}
+
+.lead{
+    font-size: 1.6em;
+    color: gray;
+}
+
+.large-side-header{
+    border-bottom: 3px solid gray;
+    font-size: 1.6em;
+    font-weight: bolder;
+}
+
+.career{
+    display: flex;
+    margin-bottom: 20px;
+    justify-content: space-between;
+}
+
+.date{
+    width: 20%;
+    font-weight: bolder;
+    padding: 2px 8px;
+}
+
+.work-details{
+    display: block;
+    padding: 2px ;
+    width: 76%;
+}
+
+.flex-div{
+    display: flex;
+    justify-content: space-between;
+}
+
+.academic{
+    display: flex;
+    
+}
+
+.course{
+    margin-right: 4%;
+}
+
+@media (max-width: 1200) {
+    .flex-div{
+        display: block !important;
+    }
+
+    .flex-div details{
+        margin-bottom: 10px !important;
+        font-size: 1.2em;
+    }
+}
